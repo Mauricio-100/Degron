@@ -1,0 +1,21 @@
+{
+  "name": "dragon-cli",
+  "version": "1.0.0",
+  "description": "Le client CLI pour interagir avec le cerveau de l'IA Dragon.",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "drn": "./bin/drn.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "author": "Mauricio",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.0.1",
+    "socket.io-client": "^4.7.5"
+  }
+}
